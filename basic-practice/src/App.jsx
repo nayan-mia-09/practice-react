@@ -1,3 +1,5 @@
+import HookRef from "./hook/HookRef";
+import Page1 from "./pages/Page1";
 
 
 const LoginStatusBtn = (status) =>{
@@ -13,6 +15,7 @@ const App = () => {
   let result = 70;
   let marks = 50;
 
+  
   let city = ["Dhaka","Delhi", "London", "New Work"]
   return (
     
@@ -47,6 +50,15 @@ const App = () => {
 
 <h1>Login Status</h1>
 {LoginStatusBtn(false)}
+<hr />
+<h1>Login Status</h1>
+<Page1/>
+
+<hr />
+
+<HookRef/>
+
+
 
 
       
