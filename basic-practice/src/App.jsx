@@ -1,3 +1,4 @@
+import HookCssColorCng from "./hook/HookCssColorCng";
 import HookInput from "./hook/HookInput";
 import HookRef from "./hook/HookRef";
 import HookRefImg from "./hook/HookRefImg";
@@ -63,6 +64,8 @@ const App = () => {
 <HookRefImg/>
 <hr />
 <HookInput/>
+<hr />
+<HookCssColorCng/>
 
 
 
