@@ -1,3 +1,4 @@
+import HookInput from "./hook/HookInput";
 import HookRef from "./hook/HookRef";
 import HookRefImg from "./hook/HookRefImg";
 import Page1 from "./pages/Page1";
@@ -60,6 +61,8 @@ const App = () => {
 <HookRef/>
 <hr />
 <HookRefImg/>
+<hr />
+<HookInput/>
 
 
 
