@@ -1,5 +1,7 @@
+import HookApiDataCall from "./hook/HookApiDataCall";
 import HookCssColorCng from "./hook/HookCssColorCng";
 import HookInput from "./hook/HookInput";
+import HookNumRef from "./hook/HookNumRef";
 import HookRef from "./hook/HookRef";
 import HookRefImg from "./hook/HookRefImg";
 import Page1 from "./pages/Page1";
@@ -66,6 +68,11 @@ const App = () => {
 <HookInput/>
 <hr />
 <HookCssColorCng/>
+<hr />
+<HookNumRef/>
+<hr />
+<br /><br />
+<HookApiDataCall/>
 
 
 
