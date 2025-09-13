@@ -1,4 +1,5 @@
 import HookRef from "./hook/HookRef";
+import HookRefImg from "./hook/HookRefImg";
 import Page1 from "./pages/Page1";
 
 
@@ -57,6 +58,8 @@ const App = () => {
 <hr />
 
 <HookRef/>
+<hr />
+<HookRefImg/>
 
 
 
