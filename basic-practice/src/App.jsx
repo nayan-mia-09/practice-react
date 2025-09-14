@@ -1,3 +1,4 @@
+import TodoApp from "./components/TodoApp";
 import HookApiDataCall from "./hook/HookApiDataCall";
 import HookCssColorCng from "./hook/HookCssColorCng";
 import HookInput from "./hook/HookInput";
@@ -73,6 +74,10 @@ const App = () => {
 <hr />
 <br /><br />
 <HookApiDataCall/>
+
+<hr />
+<br />
+<TodoApp/>
 
 
 
